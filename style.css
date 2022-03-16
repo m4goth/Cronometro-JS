@@ -1,0 +1,55 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: #111;
+}
+
+.max-width {
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10%;
+    background-color: rgb(171, 0, 250);
+    box-shadow: 0 0 5px rgb(48, 0, 59);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI';
+    font-size: 1.1em;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: #a915ff;
+}
+
+button:active {
+    background-color: #111;
+}
+
+.bg-purple1 {
+    background-color: #b7a1d1;
+}
+
+.bg-purple2 {
+    background-color: #b7a1d1;
+}
+
+.bg-purple3 {
+    background-color: #baa1d1;
+}
